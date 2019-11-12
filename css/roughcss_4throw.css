@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* This document is the rough css for 4th Row's version of Chapter 1030 of VVA */
+
+/* Bevel menu, tentative, from mymenus.css */
+.bevel {
+	margin: 0;
+padding: 0;
+width: 180px;	
+	}
+.bevel ul {
+list-style-type: none;
+
+}
+
+.bevel li a{
+display: block;
+width: 100%;
+
+text-decoration: none;
+font-weight: bold;
+background-color: #EAEFFD;
+border: 2px solid #122997;
+color: #3A38F1;
+text-decoration: none;
+}
+
+.bevel li a:hover{
+color: black;
+background-color: #FFFFFF;
+border-style: outset;
+}
+
+html>body .bevel li a:active{ /* Apply mousedown effect (non IE browsers only) */
+border-style: inset;
+	}
