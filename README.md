@@ -77,3 +77,32 @@ https://vva1030.wixsite.com/vva-1030 <- current website
 <p style="padding-left: 60px;"></p>
 </body>
 </html>
+<hr>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+<p></p>
+<!--StartFragment-->
+<h1>Final Presentations&nbsp;Specifications</h1>
+<p style="line-height: normal;" class="MsoNormal"><span style="font-size: 12.0pt; font-family: 'Times New Roman','serif';">All members of the group must participate in the preparation and delivery of the presentation.</span></p>
+<p style="line-height: normal;" class="MsoNormal"><span style="font-size: 12.0pt; font-family: 'Times New Roman','serif';">Audience: &nbsp; peers, and instructor.</span></p>
+<p style="line-height: normal;" class="MsoNormal"><span style="font-size: 12.0pt; font-family: 'Times New Roman','serif';">Create a presentation that showcases your website and share with your peers and the customer and the lessons you learned in developing the site.</span></p>
+<p style="line-height: normal;" class="MsoNormal"><span style="font-size: 12.0pt; font-family: 'Times New Roman','serif';">Limit your presentation to 10 minutes (7 - 10 slides) . All members must be present&nbsp; for the presentation.&nbsp; Each member must contribute to the presentation.&nbsp; Remember you are presenting&nbsp;your work&nbsp;therefore your presentation should be professional.</span></p>
+<h2>What to Include? This is your chance to sell your design.</h2>
+<ol style="margin-top: 0in;" type="1" start="1">
+<li style="line-height: normal; mso-list: l0 level1 lfo1; tab-stops: list .5in;" class="MsoNormal"><span style="font-size: 12.0pt; font-family: 'Times New Roman','serif'; mso-fareast-font-family: 'Times New Roman';">Place a link to your site in your presentation. Review your website live.</span></li>
+<li style="line-height: normal; mso-list: l0 level1 lfo1; tab-stops: list .5in;" class="MsoNormal"><span style="font-size: 12.0pt; font-family: 'Times New Roman','serif'; mso-fareast-font-family: 'Times New Roman';">Discuss lessons learned.</span></li>
+<li style="line-height: normal; mso-list: l0 level1 lfo1; tab-stops: list .5in;" class="MsoNormal"><span style="font-size: 12.0pt; font-family: 'Times New Roman','serif'; mso-fareast-font-family: 'Times New Roman';">Discuss feedback from your feedback survey and analysis.</span></li>
+<li style="line-height: normal; mso-list: l0 level1 lfo1; tab-stops: list .5in;" class="MsoNormal"><span style="font-size: 12.0pt; font-family: 'Times New Roman','serif'; mso-fareast-font-family: 'Times New Roman';">Discuss how the site fits the user's needs.</span></li>
+<li style="line-height: normal; mso-list: l0 level1 lfo1; tab-stops: list .5in;" class="MsoNormal"><span style="font-size: 12.0pt; font-family: 'Times New Roman','serif'; mso-fareast-font-family: 'Times New Roman';">Q&amp;A.</span></li>
+<li style="line-height: normal; mso-list: l0 level1 lfo1; tab-stops: list .5in;" class="MsoNormal"><strong><span face="Times New Roman, serif" style="font-family: 'Times New Roman', serif;"><span style="font-size: 16px;">Each member must participate in the presentation.&nbsp;&nbsp;</span></span></strong></li>
+</ol>
+<p style="line-height: normal;" class="MsoNormal"><strong><span style="font-size: 13.5pt; font-family: 'Times New Roman','serif';">Submit a copy of your PowerPoint presentation via D2L Dropbox.</span></strong></p>
+<p style="line-height: normal;" class="MsoNormal"><strong><span style="font-size: 13.5pt; font-family: 'Times New Roman','serif';">Only 1 member of the group (Team Leader) needs to submit the PPT file.&nbsp; All members of the group must present.</span></strong></p>
+<!--EndFragment-->
+<p></p>
+</body>
+</html>
+<hr>
