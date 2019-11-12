@@ -4,7 +4,6 @@ HTML5 group project for IS 3260, creating a website for the Cumming, GA chapter 
 
 https://vva1030.wixsite.com/vva-1030 <- current website
 
-[[_TOC_]]
 
 
 <hr>
