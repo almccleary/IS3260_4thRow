@@ -80,7 +80,6 @@ https://vva1030.wixsite.com/vva-1030 <- current website
 <hr>
 <html>
     <head>
-        <title></title>
     </head>
     <body>
 <p></p>
