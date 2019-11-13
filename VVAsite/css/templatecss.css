@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Style the header */
+.header {
+	margin: 0 auto;
+	padding: 10px 16px;
+	background-color: rgba(185, 8, 8, 0.8);
+	color: #A83032;
+	z-index: 100;
+	border-radius: 10px;
+	position: fixed;
+	width: 97%;
+	height: 110px
+}
+
+.floatright{
+	margin: 10px;
+	float: right;
+}
+.floatleft{
+	margin: 10px;
+	float: left;
+}
+/* Main content */
+
+#framework{
+	padding-top:130px;
+}
+
+.center-div
+{
+     margin: -80px auto;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 900;
+    width: 75%; 
+	color: white;
+	object-position: center
+}
