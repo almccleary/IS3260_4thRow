@@ -3,17 +3,32 @@
 
 /* Style the header */
 .header {
-	margin: 0 auto;
 	padding: 10px 16px;
-	background-color: rgba(185, 8, 8, 0.8);
-	color: #A83032;
+	background-color: rgb(185, 8, 8); /* fallback */
+	background-color: rgba(185, 8, 8, 0.85);
 	z-index: 100;
 	border-radius: 10px;
 	position: fixed;
-	width: 97%;
-	height: 110px
+	width: 95%;
+	margin: 0 auto;
+	height: 110px;
+	left: 50%;
+	transform: translateX(-50%);
+	overflow: auto;	
 }
 
+#header-table{ 
+	color: aliceblue;
+	position: fixed;
+	width: 97%;
+	left: 50%;
+	height: 110px;
+	top: 5px;
+	bottom:5px; 
+	transform: translateX(-50%);
+	z-index: 300;
+	margin: 0 auto;
+}
 .floatright{
 	margin: 10px;
 	float: right;
@@ -22,18 +37,22 @@
 	margin: 10px;
 	float: left;
 }
-/* Main content */
+
 
 #framework{
-	padding-top:130px;
+	padding-top:150px;
+	
 }
 
-.center-div
-{
-     margin: -80px auto;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	font-size: 900;
-    width: 75%; 
-	color: white;
-	object-position: center
+#template_table{
+	width:100%;
 }
+#center_column{
+	background-color: rgba(255, 248, 220, 0.85);
+	border-radius: 10px;
+	width:100%;
+}
+#column-content{
+	padding: 10px
+}
+
