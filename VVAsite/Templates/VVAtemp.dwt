@@ -5,7 +5,7 @@
 <!-- TemplateBeginEditable name="doctitle" -->
 <title></title>
 <!-- TemplateEndEditable -->
-<link rel="stylesheet" href="../css/templatecss.css">
+<link href="../css/templatecss.css" rel="stylesheet" type="text/css">
 <!-- TemplateBeginEditable name="head" -->
 	
 <!-- TemplateEndEditable -->
@@ -49,7 +49,7 @@ document.getElementById('searchform').onsubmit = function() {
 					<tr>
 					  <td><span style="font-size: 20pt;">Chapter 1030</span></td>
 					<td><p><span style="font-size: 20pt; text-align: right;">Cumming, GA</span></p></td>
-				</tr>
+					</tr></tr>
 				</table>
 				</div>
 			</td>
@@ -62,31 +62,33 @@ document.getElementById('searchform').onsubmit = function() {
 <div id="framework">
 <table id="template_table">
 	<tr>
-		<td width=20% valign="top">
+		<td width="20%" valign="top">
 		
 			<br>
 			  <div id="sidebarMenu">
 				<ul class="sidebarMenuInner">
 				  <li style="background-color:rgba(94,111,154,.00001);border-bottom: 1px solid rgba(255, 255, 255, 0.40); border-radius: 5px; cursor:default;color:darkgrey">Navigation</li>
 					
-				  <a href="index.html"><li>Home</li></a>
-				  <a href="#"><li>About</li></a>
-				  <a href="#"><li>Donate</li></a>
-				  <a href="#"><li>Pictures</li></a>
-				  <a href="#"><li>Contact Us</li></a>
+				  <a href="../index.html"><li>Home</li></a>
+				  <a href="../pages/aboutus.html"><li>About</li></a>
+				  <a href="../pages/donate.html"><li>Donate</li></a>
+				  <a href="../pictures.html"><li>Pictures and Maps</li></a>
+				  <a href="../pages/contactus.html"><li>Contact Us</li></a>
+					<a href="../pages/communityservice.html"><li>Community Service</li></a>
+					<a href="#"><li>News and Events</li></a>
 				</ul>
 			  </div>
 		</td>
 		<td><div id="center_column">
-			<div id="column-content">
+			<div class="column-content">
 			<!-- TemplateBeginEditable name="maincontent" -->
 				maincontent
 			<!-- TemplateEndEditable -->
 			</div>
 			</div></td>
-		<td align="left" width=20%>
-		<div height=100% id="right-column" class="floatcenter">
-		  <div id="column-content">
+		<td align="left" width="20%">
+		<div height="100%" id="right-column" class="floatcenter">
+		  <div class="column-content">
 			<!-- TemplateBeginEditable name="rightcontent" -->
 				rightcontent
 			<!-- TemplateEndEditable -->
