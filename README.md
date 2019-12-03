@@ -1,3 +1,7 @@
+#ARTICLES RELATED TO CHAPTER 1030
+https://vva.org/tag/chapter-1030/
+
+
 # IS3260 4thRow
 HTML5 group project for IS 3260, creating a website for the Cumming, GA chapter of Vietnam Veterans of America (VVA 1030).
 <br/>Note to contributers: for the sake of being able to read everyone's work easily, please add in comments explaining what you're doing in your code.
