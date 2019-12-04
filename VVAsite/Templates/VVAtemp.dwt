@@ -29,7 +29,7 @@ document.getElementById('searchform').onsubmit = function() {
 }
 </script>
 	
-<!-- TemplateBeginEditable name="header" -->header<!-- TemplateEndEditable -->
+
 	
 </head>
 
@@ -56,7 +56,7 @@ document.getElementById('searchform').onsubmit = function() {
 				</table>
 				</div>
 			</td>
-		  <td width="20%" valign="top"><form id="sarchform" class="search2" method="get" action="source.html" />
+		  <td width="20%" valign="top">
 		  Search our site:
 		  <input class="search2" id="test" type="text" name="search" size="20" maxlength="255"/></td>
 		</tr>
@@ -71,15 +71,16 @@ document.getElementById('searchform').onsubmit = function() {
 			<br>
 			  <div id="sidebarMenu">
 				<ul class="sidebarMenuInner">
-				  <li style="background-color:rgba(94,111,154,.00001);border-bottom: 1px solid rgba(255, 255, 255, 0.40); border-radius: 5px; cursor:default;color:darkgrey">Navigation</li>
+				  <li style="background-color:rgba(94,111,154,.00001);border-bottom: 1px solid rgba(255, 255, 255, 0.40); border-radius: 5px; cursor:default;color:darkgrey">Menu</li>
 					
 				  <a href="../pages/index.html"><li>Home</li></a>
+					<a href="../pages/newsandevents.html"><li>News and Events</li></a>
 				  <a href="../pages/aboutus.html"><li>About</li></a>
 				  <a href="../pages/donate.html"><li>Donate</li></a>
-				  <a href="../pictures.html"><li>Pictures and Maps</li></a>
+				  <a href="../pages/pictures.html"><li>Pictures and Maps</li></a>
 				  <a href="../pages/contactus.html"><li>Contact Us</li></a>
 					<a href="../pages/communityservice.html"><li>Community Service</li></a>
-					<a href="#"><li>News and Events</li></a>
+					<a href="../pages/feedback.html"><li>Feedback</li></a>
 				</ul>
 			  </div>
 		</td>
@@ -102,4 +103,7 @@ document.getElementById('searchform').onsubmit = function() {
 </table>
 </div>
 </body>
+<footer>
+	<p align="center"><a href="../pages/sitemap.html">sitemap</a> | <a href="../pages/credits.html">credits</a> | &copy;Vietnam Veterans of America 2019</p>
+</footer>
 </html>
