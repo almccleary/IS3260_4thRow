@@ -91,7 +91,11 @@ document.getElementById('searchform').onsubmit = function() {
 			<h1 align="center">Contact Us</h1>
 				<p>
 					
-					<h3>Mailing Address</h3>   
+	<table>							  
+	<tr>
+	<td width="50%" valign="top">	
+		
+				<h3>Mailing Address</h3>   
 			    
       			<p style="padding-left: 50px;">
 							<b>Vietnam  Veterans of America<br>
@@ -106,30 +110,64 @@ document.getElementById('searchform').onsubmit = function() {
 				<p><b>Email: </b><a href="mailto:gary@goyette.us">Gary@goyette.us</a></p>
 				<p><strong>Phone: </strong><a href="tek:717-579-1427">717-579-1427</a></p>
 				<p>&nbsp;</p><p>&nbsp;</p>
+		
+	</td>	
+	<td>	
 			
-			<div align="center">
-				<h4>Click on a link below, Print the selected form, fill it out, and SUBMIT TO OUR CHAPTER.</h4>
-
-			<button onclick="myFunction()">Member Application</button>
-
-				<script>
-					function myFunction() {
-  						location.replace("#")
-					}
-				</script>
+				<table>
+				  <tr>
+				  	<td colspan="2" width="50%" valign="top" align="center">
+						<h4>FOR GENERAL INQUIRIES</h4>
+					  </td>
+				  </tr>
+				  <tr>
+					  <td>
+			  			<p>Name: </p>
+					  </td>
+					  <td>
+				  		<input type="text" cols="50" name="name" id="name">
+				  		</td>
+				  </tr>  
+			  	<tr>
+					  <td>
+			  			<p>Email: </p>
+					  </td>
+					  <td>
+				  		<input type="email" cols="50" name="email" id="email">
+				  		</td>
+					</tr>
+				<tr>
+					  <td>
+			  			<p>Subject: </p>
+					  </td>
+					  <td>
+				  		<input type="text" cols="50" name="Subject" id="Subject">
+				  		</td>
+					</tr>
+				<tr>
+					  <td>
+			  			<p>Message: </p>
+					  </td>
+					  <td>
+				  		<textarea name="Message" cols="50px" rows="20px" id="Message"></textarea>
+				  		</td>
+			  </tr>
+				<tr>
+					<td align="right" colspan="2">
+				  		<input type="submit" name="Send" id="Send" value="Send">
+					</td>
+				  </tr>  
+			  </table>	
 			
-			<button onclick="myFunction()">Member Transfer</button>
-
-				<script>
-					function myFunction() {
-  						location.replace("#")
-					}
-				</script>
-				<div>
-								
+		
+	</td>
+	</tr>		
+			
+			
+				</table>				
 				
 				
-			header<!-- InstanceEndEditable -->
+			<!-- InstanceEndEditable -->
 			</div>
 			</div></td>
 		<td align="left" width="20%">
@@ -148,59 +186,32 @@ document.getElementById('searchform').onsubmit = function() {
 				
 			  		<b>Meeting Location:</b> 
 					<div style="padding-left: 15px;">
-			  		<a href="https://www.google.com/maps/place/AA-Academy+of+Action+Driving/@34.2154813,-84.1528359,17z/data=!3m1!4b1!4m5!3m4!1s0x88f58525b07fb3bf:0xd47cfe894ff33102!8m2!3d34.2154769!4d-84.1506472">AA DRIVING ACADEMY<br>432 Canton Hwy<br>Cumming, GA  30040</a>
+			  			<a href="https://www.google.com/maps/place/AA-Academy+of+Action+Driving/@34.2154813,-84.1528359,17z/data=!3m1!4b1!4m5!3m4!1s0x88f58525b07fb3bf:0xd47cfe894ff33102!8m2!3d34.2154769!4d-84.1506472">AA DRIVING ACADEMY<br>432 Canton Hwy<br>Cumming, GA  30040</a>
 			  		</div>
 			  </p>
 			  
 			  <hr>
 			  
 			  
-			  <table>
-				  <tr>
-				  	<td colspan="2">
-						<h4>FOR GENERAL INQUIRIES</h4>
-					  </td>
-				  </tr>
-				  <tr>
-					  <td>
-			  			<p>Name: </p>
-					  </td>
-					  <td>
-				  		<input type="text" cols="22" name="name" id="name">
-				  		</td>
-				  </tr>  
-			  	<tr>
-					  <td>
-			  			<p>Email: </p>
-					  </td>
-					  <td>
-				  		<input type="email" cols="22" name="email" id="email">
-				  		</td>
-					</tr>
-				<tr>
-					  <td>
-			  			<p>Subject: </p>
-					  </td>
-					  <td>
-				  		<input type="text" cols="22" name="Subject" id="Subject">
-				  		</td>
-					</tr>
-				<tr>
-					  <td>
-			  			<p>Message: </p>
-					  </td>
-					  <td>
-				  		<textarea name="Message" cols="22" rows="22" id="Message"></textarea>
-				  		</td>
-			  </tr>
-				<tr>
-					<td align="right" colspan="2">
-				  		<input type="submit" name="Send" id="Send" value="Send" >
-					</td>
-				  </tr>  
-			  </table>			  
-			  
-			  
+			  <div align="center">
+				<h4>Click on a link below, Print the selected form, fill it out, and SUBMIT TO OUR CHAPTER.</h4>
+
+			<button onclick="myFunction1()">Member Application</button>
+
+				<script>
+					function myFunction1() {
+  						location.replace("../pages/memberapplication.pdf")
+					}
+				</script>
+			
+			<button onclick="myFunction2()">Member Transfer</button>
+
+				<script>
+					function myFunction2() {
+  						location.replace("../pages/transfer.pdf")
+					}
+				</script>
+				<div>
 			<!-- InstanceEndEditable -->
 			</div></div>
 		</td>
