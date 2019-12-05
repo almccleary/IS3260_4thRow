@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>VVA | Community Service</title>
+<title>VVA 1030 | Community Service</title>
 <!-- InstanceEndEditable -->
 <link href="../css/templatecss.css" rel="stylesheet" type="text/css">
 <!-- InstanceBeginEditable name="head" -->
@@ -29,8 +29,6 @@ document.getElementById('searchform').onsubmit = function() {
 }
 </script>
 	
-
-	
 </head>
 
 <body>
@@ -40,32 +38,45 @@ document.getElementById('searchform').onsubmit = function() {
 	<table id="header-table">
 		<tr>
 		  <td style="width: 160px">
-			<img src="../images/vva-logo.png" width="100%" alt="VVA Logo" title="VVA Logo" style="z-index:400">
+			<img src="../images/vva-logo.png" width="160px" alt="VVA Logo" title="VVA Logo" style="z-index:400">
 		  </td>
-			<td valign="top">
+			<td>
 				<div style="overflow: inherit;">
 				<table >
 					
 				<tr>
-					<td rowspan="2" style="width: 3%" ></td>
 					<td colspan="2"><strong><span style="font-size: 28pt;">VIETNAM VETERANS OF AMERICA</span></strong></td>
-					<tr>
+					<tr></tr>
 					  <td><span style="font-size: 20pt;">Chapter 1030</span></td>
 					<td><p><span style="font-size: 20pt; text-align: right;">Cumming, GA</span></p></td>
-					</tr></tr>
+					</tr>
 				</table>
 				</div>
 			</td>
-		  <td width="20%" valign="top">
-		  Search our site:
-		  <input class="search2" id="test" type="text" name="search" size="20" maxlength="255"/></td>
+		  <td>
+			  <button onclick="myFunction1()">Member Application</button>
+
+				<script>
+					function myFunction1() {
+  						location.replace("../pages/memberapplication.pdf")
+					}
+				</script>
+			
+			<button onclick="myFunction2()">Donate</button>
+
+				<script>
+					function myFunction2() {
+  						location.replace("https://vva.org/donate/")
+					}
+				</script>
+		  </td>
 		</tr>
 	</table>
 </div>
 <div id="framework">
 <table id="template_table">
 	<tr>
-		<td width="20%" valign="top">
+		<td width="20%">
 		
 			<br>
 			<br>
@@ -73,9 +84,9 @@ document.getElementById('searchform').onsubmit = function() {
 				<ul class="sidebarMenuInner">
 				  <li style="background-color:rgba(94,111,154,.00001);border-bottom: 1px solid rgba(255, 255, 255, 0.40); border-radius: 5px; cursor:default;color:darkgrey">Menu</li>
 					
-				  <a href="index.html"><li>Home</li></a>
+				  <a href="../index.html"><li>Home</li></a>
 					<a href="newsandevents.html"><li>News and Events</li></a>
-				  <a href="aboutus.html"><li>About</li></a>
+				  <a href="aboutus.html"><li>About Us</li></a>
 				  <a href="donate.html"><li>Donate</li></a>
 				  <a href="pictures.html"><li>Pictures and Maps</li></a>
 				  <a href="contactus.html"><li>Contact Us</li></a>
@@ -153,6 +164,27 @@ document.getElementById('searchform').onsubmit = function() {
 			  </p>
 			  
 			<!-- InstanceEndEditable -->
+			  <hr>
+			  <div align="center">
+				  <h3>Member Application</h3>
+				<h4>Click on a link below, Print the selected form, fill it out, and SUBMIT TO OUR CHAPTER.</h4>
+
+			<button onclick="myFunction1()">Member Application</button>
+
+				<script>
+					function myFunction1() {
+  						location.replace("../pages/memberapplication.pdf")
+					}
+				</script>
+			
+			<button onclick="myFunction2()">Member Transfer</button>
+
+				<script>
+					function myFunction2() {
+  						location.replace("../pages/transfer.pdf")
+					}
+				</script>
+				<div>
 			</div></div>
 		</td>
 	</tr>
