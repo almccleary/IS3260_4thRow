@@ -38,7 +38,7 @@ document.getElementById('searchform').onsubmit = function() {
 	<table id="header-table">
 		<tr>
 		  <td style="width: 160px">
-			<img src="../images/vva-logo.png" width="160px" alt="VVA Logo" title="VVA Logo" style="z-index:400">
+			<img src="../images/vva-logo.png" width="160" alt="VVA Logo" title="VVA Logo" style="z-index:400">
 		  </td>
 			<td>
 				<div style="overflow: inherit;">
@@ -46,10 +46,13 @@ document.getElementById('searchform').onsubmit = function() {
 					
 				<tr>
 					<td colspan="2"><strong><span style="font-size: 28pt;">VIETNAM VETERANS OF AMERICA</span></strong></td>
-					<tr></tr>
-					  <td><span style="font-size: 20pt;">Chapter 1030</span></td>
+					</tr>
+					<tr>
+
+					 <td><span style="font-size: 20pt;">Chapter 1030</span></td>
 					<td><p><span style="font-size: 20pt; text-align: right;">Cumming, GA</span></p></td>
 					</tr>
+				
 				</table>
 				</div>
 			</td>
@@ -76,7 +79,7 @@ document.getElementById('searchform').onsubmit = function() {
 <div id="framework">
 <table id="template_table">
 	<tr>
-		<td width="20%">
+		<td id="navwidth">
 		
 			<br>
 			<br>
@@ -84,27 +87,28 @@ document.getElementById('searchform').onsubmit = function() {
 				<ul class="sidebarMenuInner">
 				  <li style="background-color:rgba(94,111,154,.00001);border-bottom: 1px solid rgba(255, 255, 255, 0.40); border-radius: 5px; cursor:default;color:darkgrey">Menu</li>
 					
-				  <a href="../index.html"><li>Home</li></a>
-					<a href="newsandevents.html"><li>News and Events</li></a>
-				  <a href="aboutus.html"><li>About Us</li></a>
-				  <a href="donate.html"><li>Donate</li></a>
-				  <a href="pictures.html"><li>Pictures and Maps</li></a>
-				  <a href="contactus.html"><li>Contact Us</li></a>
-					<a href="communityservice.html"><li>Community Service</li></a>
-					<a href="feedback.html"><li>Feedback</li></a>
+				  <li><a href="../index.html">Home</a></li>
+					<li><a href="newsandevents.html">News and Events</a></li>
+				 <li><a href="aboutus.html">About Us</a></li>
+				  <li><a href="donate.html">Donate</a></li>
+				  <li><a href="pictures.html">Pictures and Maps</a></li>
+				  <li><a href="contactus.html">Contact Us</a></li>
+					<li><a href="communityservice.html">Community Service</a></li>
+					<li><a href="feedback.html">Feedback</a></li>
 				</ul>
 			  </div>
 		</td>
+	
 		<td><div id="center_column">
 			<div class="column-content">
 			<!-- InstanceBeginEditable name="maincontent" -->
 
 				
-			<h1 align="center">2018 Annual Programs</h1>
+			<h1 class="aligncenter">2018 Annual Programs</h1>
 				<div>
 				<h3>Scholarship Program</h3>
 					<p style="padding-left: 10px;">The 2018 scholarship program is underway. Please click on the application below for details. Applications must be postmarked no later than April 15, 2018. 2-$1,000 scholarships will be awarded</p>
-					<div align="center">
+					<div class="aligncenter">
 						<button onclick="myFunction1()">Application</button>
 						<script>
 							function myFunction1() {
@@ -142,30 +146,30 @@ document.getElementById('searchform').onsubmit = function() {
 			<!-- InstanceEndEditable -->
 			</div>
 			</div></td>
-		<td align="left" width="20%">
-		<div height="100%" id="right-column" class="floatcenter">
+		<td id="rightcontentwidth">
+		<div id="right-column" class="floatcenter">
 		  <div class="column-content">
+			
 			<!-- InstanceBeginEditable name="rightcontent" -->
 
 			  
-			 			 <h2 align="center">Meetings</h2>
-				<p>
+			 			<h2 class="h2aligncenter">Meetings</h2>
+				
 					<b>Meetings are:</b>
 					<div style="padding-left: 15px;">the 1st TUESDAY of Every Month</div><br>
 				
 			  		<b>Next Meeting:</b>
 					<div style="padding-left: 15px;">MAY 7th, 2019 @ 1900 HRS</div><br>
-			  	
+			 
 				
 			  		<b>Meeting Location:</b> 
 					<div style="padding-left: 15px;">
 			  		<a href="https://www.google.com/maps/place/AA-Academy+of+Action+Driving/@34.2154813,-84.1528359,17z/data=!3m1!4b1!4m5!3m4!1s0x88f58525b07fb3bf:0xd47cfe894ff33102!8m2!3d34.2154769!4d-84.1506472">AA DRIVING ACADEMY<br>432 Canton Hwy<br>Cumming, GA  30040</a>
-			  		</div>
-			  </p>
-			  
+			  		</div><br>
+			  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13197.181307489562!2d-84.1506472!3d34.2154769!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd47cfe894ff33102!2sAA-Academy%20of%20Action%20Driving!5e0!3m2!1sen!2sus!4v1575512726705!5m2!1sen!2sus" width="100" height="100" style="border:0;" allowfullscreen="" class="iframeborder"></iframe>
 			<!-- InstanceEndEditable -->
 			  <hr>
-			  <div align="center">
+			  <div>
 				  <h3>Member Application</h3>
 				<h4>Click on a link below, Print the selected form, fill it out, and SUBMIT TO OUR CHAPTER.</h4>
 
@@ -184,14 +188,16 @@ document.getElementById('searchform').onsubmit = function() {
   						location.replace("../pages/transfer.pdf")
 					}
 				</script>
-				<div>
-			</div></div>
-		</td>
-	</tr>
+				
+			</div>
+			</div>
+			</div>
+		
 </table>
 </div>
-</body>
+
 <footer>
-	<p align="center"><a href="sitemap.html">sitemap</a> | <a href="credits.html">credits</a> | &copy;Vietnam Veterans of America 2019</p>
+	<p class="paligncenter"><a href="sitemap.html">sitemap</a> | <a href="credits.html">credits</a> | &copy;Vietnam Veterans of America 2019</p>
 </footer>
+	</body>
 <!-- InstanceEnd --></html>

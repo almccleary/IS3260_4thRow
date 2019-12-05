@@ -39,7 +39,7 @@ document.getElementById('searchform').onsubmit = function() {
 	<table id="header-table">
 		<tr>
 		  <td style="width: 160px">
-			<img src="images/vva-logo.png" width="160px" alt="VVA Logo" title="VVA Logo" style="z-index:400">
+			<img src="images/vva-logo.png" width="160" alt="VVA Logo" title="VVA Logo" style="z-index:400">
 		  </td>
 			<td>
 				<div style="overflow: inherit;">
@@ -47,10 +47,13 @@ document.getElementById('searchform').onsubmit = function() {
 					
 				<tr>
 					<td colspan="2"><strong><span style="font-size: 28pt;">VIETNAM VETERANS OF AMERICA</span></strong></td>
-					<tr></tr>
-					  <td><span style="font-size: 20pt;">Chapter 1030</span></td>
+					</tr>
+					<tr>
+
+					 <td><span style="font-size: 20pt;">Chapter 1030</span></td>
 					<td><p><span style="font-size: 20pt; text-align: right;">Cumming, GA</span></p></td>
 					</tr>
+				
 				</table>
 				</div>
 			</td>
@@ -77,7 +80,7 @@ document.getElementById('searchform').onsubmit = function() {
 <div id="framework">
 <table id="template_table">
 	<tr>
-		<td width="20%">
+		<td id="navwidth">
 		
 			<br>
 			<br>
@@ -85,17 +88,18 @@ document.getElementById('searchform').onsubmit = function() {
 				<ul class="sidebarMenuInner">
 				  <li style="background-color:rgba(94,111,154,.00001);border-bottom: 1px solid rgba(255, 255, 255, 0.40); border-radius: 5px; cursor:default;color:darkgrey">Menu</li>
 					
-				  <a href="index.html"><li>Home</li></a>
-					<a href="pages/newsandevents.html"><li>News and Events</li></a>
-				  <a href="pages/aboutus.html"><li>About Us</li></a>
-				  <a href="pages/donate.html"><li>Donate</li></a>
-				  <a href="pages/pictures.html"><li>Pictures and Maps</li></a>
-				  <a href="pages/contactus.html"><li>Contact Us</li></a>
-					<a href="pages/communityservice.html"><li>Community Service</li></a>
-					<a href="pages/feedback.html"><li>Feedback</li></a>
+				  <li><a href="index.html">Home</a></li>
+					<li><a href="pages/newsandevents.html">News and Events</a></li>
+				 <li><a href="pages/aboutus.html">About Us</a></li>
+				  <li><a href="pages/donate.html">Donate</a></li>
+				  <li><a href="pages/pictures.html">Pictures and Maps</a></li>
+				  <li><a href="pages/contactus.html">Contact Us</a></li>
+					<li><a href="pages/communityservice.html">Community Service</a></li>
+					<li><a href="pages/feedback.html">Feedback</a></li>
 				</ul>
 			  </div>
 		</td>
+	
 		<td><div id="center_column">
 			<div class="column-content">
 			<!-- InstanceBeginEditable name="maincontent" -->
@@ -198,9 +202,10 @@ Christmas Toy Drive for Area deserving children, supporting the Place and Freedo
 	<!-- InstanceEndEditable -->
 			</div>
 			</div></td>
-		<td align="left" width="20%">
-		<div height="100%" id="right-column" class="floatcenter">
+		<td id="rightcontentwidth">
+		<div id="right-column" class="floatcenter">
 		  <div class="column-content">
+			
 			<!-- InstanceBeginEditable name="rightcontent" -->
 				 <h2 align="center">Meetings</h2>
 				<p>
@@ -220,7 +225,7 @@ Christmas Toy Drive for Area deserving children, supporting the Place and Freedo
 			  
 			<!-- InstanceEndEditable -->
 			  <hr>
-			  <div align="center">
+			  <div>
 				  <h3>Member Application</h3>
 				<h4>Click on a link below, Print the selected form, fill it out, and SUBMIT TO OUR CHAPTER.</h4>
 
@@ -239,14 +244,16 @@ Christmas Toy Drive for Area deserving children, supporting the Place and Freedo
   						location.replace("../pages/transfer.pdf")
 					}
 				</script>
-				<div>
-			</div></div>
-		</td>
-	</tr>
+				
+			</div>
+			</div>
+			</div>
+		
 </table>
 </div>
-</body>
+
 <footer>
-	<p align="center"><a href="pages/sitemap.html">sitemap</a> | <a href="pages/credits.html">credits</a> | &copy;Vietnam Veterans of America 2019</p>
+	<p class="paligncenter"><a href="pages/sitemap.html">sitemap</a> | <a href="pages/credits.html">credits</a> | &copy;Vietnam Veterans of America 2019</p>
 </footer>
+	</body>
 <!-- InstanceEnd --></html>
