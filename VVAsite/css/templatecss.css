@@ -135,7 +135,7 @@ body{
 /*centerh1 CSS Document */
 
 
-.centerh1 {
+ {
 	color: rgb(185, 8, 8); /* fallback */
 	background-color: rgba(185, 8, 8, 0.7);
 	z-index: 100;
@@ -320,4 +320,23 @@ body{
 }
 .alignleft {
 	text-align: left;
+}
+.alignright {
+	text-align: right;
+}
+
+.contacttd50 {
+	width: 50%;
+	vertical-align: top;
+}
+#contattd50cent {
+	width: 50%;
+	vertical-align: top;
+	text-align: center;
+}
+
+.centertop2pad {
+	align-content:center;
+	vertical-align: top;
+	padding: 2px;
 }
