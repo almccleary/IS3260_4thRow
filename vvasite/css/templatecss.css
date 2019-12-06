@@ -1,0 +1,385 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Style the header */
+.header {
+	background-color: rgb(185, 8, 8); /* fallback */
+	background-color: rgba(185, 8, 8, 0.75);
+	z-index: 100;
+	border-radius: 15px;
+	border: 1px solid black;
+	position: fixed;
+	width: 95%;
+	margin: 0 auto;
+	height: 110px;
+	left: 50%;
+	transform: translateX(-50%);	
+}
+
+nav a {
+	display: block;
+	border: 1px solid black;
+}
+
+#header-table{ 
+	color: aliceblue;
+	position: fixed;
+	width: 97%;
+	left: 50%;
+	height: 110px;
+	top: 5px;
+	bottom:5px; 
+	border: 1px solid black;
+	transform: translateX(-50%);
+	z-index: 300;
+	margin: 0 auto;
+}
+
+.floatright{
+	margin: 10px;
+	float: right;
+}
+.floatleft{
+	margin: 10px;
+	float: left;
+}
+.floatcenter{
+	margin: 10px;
+	
+}
+
+
+
+#framework{
+	padding-top:150px;
+	border: 1px solid black;
+}
+
+#template_table{
+	padding: 0px;
+	border: 1px solid black;
+	margin-left: 20%;
+}
+#center_column{
+	background-color: rgba(255, 248, 220, 0.85);
+	width:59%;
+	margin-left: 20%;
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 10px;
+}
+#column-content{
+	vertical-align: top;
+}
+
+#right-column{
+	background-color: rgba(255, 251, 235, 0.85);
+	border-radius: 10px;
+	width:100%;
+	border: 1px solid black;
+}
+
+
+#sidebarMenu {
+    height: 200%;	
+    position: inherit;
+    left: 0;
+	border: 1px solid black;
+    width: 200%;
+
+}
+.sidebarMenuInner{
+	position: fixed;
+	border-radius: 10px;
+    margin:0;
+	border: 1px solid black;
+    padding:0;
+	color: black;
+	width: 18%;	
+	background-color: rgba(94,111,154,.6);
+  
+}
+.sidebarMenuInner a{
+    list-style: none;
+    color: white;
+    padding: 20px;
+	text-transform: uppercase;
+    font-weight: bold;
+	border: 1px solid black;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+.sidebarMenuInner a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 130%;
+	border: 1px solid black;
+    font-weight: bold;
+}
+.sidebarMenuInner a:hover{
+    list-style: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+	border-radius: 10px;
+	border: 1px solid black;
+    cursor: pointer;
+	background-color: rgba(185, 8, 8, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.90);
+}
+.sidebarMenuInner a span{
+    display: block;
+    font-size: 14px;
+	border: 1px solid black;
+    color: rgba(255, 248, 220, 0.85);
+}
+.sidebarMenuInner li a{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+	font-size: 130%;
+	border: 1px solid black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+body{
+	color: #340000;
+	border: 1px solid black;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+
+/*centerh1 CSS Document */
+
+
+
+
+#header-table{ 
+	color: aliceblue;
+	position: fixed;
+	width: 97%;
+	left: 50%;
+	height: 110px;
+	border: 1px solid black;
+	top: 5px;
+	bottom:5px; 
+	transform: translateX(-50%);
+	z-index: 300;
+	margin: 0 auto;
+}
+
+.floatright{
+	margin: 10px;
+	float: right;
+}
+.floatleft{
+	margin: 10px;
+	float: left;
+}
+
+
+
+#framework{
+	padding-top:150px;
+	border: 1px solid black;
+	
+}
+
+
+
+.column-content{
+	padding: 10px;
+	border: 1px solid black;
+	vertical-align: top;
+}
+
+#right-column{
+	background-color: rgba(255, 251, 235, 0.85);
+	border-radius: 10px;
+	border: 1px solid black;
+	width:18%;
+}
+
+
+#sidebarMenu {
+    height: 200%;	
+	border: 1px solid black;
+    position: inherit;
+    left: 0;
+    width: 200%;
+
+}
+.sidebarMenuInner{
+	position: fixed;
+	border-radius: 10px;
+    margin:0;
+	border: 1px solid black;
+    padding:0;
+	color: black;
+	width: 18%;	
+	background-color: rgba(94,111,154,.6);
+  
+}
+td{
+	vertical-align: top;
+	border: 1px solid black;
+}
+.sidebarMenuInner li{
+    list-style: none;
+    color: white;
+    padding: 20px;
+	border: 1px solid black;
+	text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+.sidebarMenuInner a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 130%;
+	border: 1px solid black;
+    font-weight: bold;
+}
+.sidebarMenuInner li:hover{
+    list-style: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+	border: 1px solid black;
+	border-radius: 10px;
+    cursor: pointer;
+	background-color: rgba(185, 8, 8, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.90);
+}
+.sidebarMenuInner li span{
+    display: block;
+	border: 1px solid black;
+    font-size: 14px;
+    color: rgba(255, 248, 220, 0.85);
+}
+.sidebarMenuInner li a{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+	font-size: 130%;
+	border: 1px solid black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+body{
+	color: #340000;
+	border: 1px solid black;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+#centerh1 {
+  text-align: center;
+	border: 1px solid black;
+}
+
+/* this is because the validation service doesn't like inline style apparently*/
+.tdwidth20 td {
+	width: 20%;
+		border: 1px solid black;
+}
+
+.table80 table {
+	width: 80%;
+	padding: 5px;
+	border: 0;
+	border: 1px solid black;
+	
+}
+.paligncenter p {
+	text-align: center;
+	border: 1px solid black;
+}
+
+.pictureswidth td {
+	width: 45%;
+}
+
+#rightcontentwidth {
+	width: 20%;
+	border: 1px solid black;
+}
+
+#navwidth {
+	width: 10%;
+	border: 1px solid black;
+}
+
+.h2aligncenter h2 {
+	text-align: center;
+	border: 1px solid black;
+}
+
+
+#aboutustextalign {
+	text-align: center;
+	border: 1px solid black;
+}
+.aligncenter {
+	text-align: center;
+	border: 1px solid black;
+}
+
+#aboutustr {
+	align-content: center;
+	vertical-align: top;
+	border: 1px solid black;
+}
+
+
+
+.aboutustable table {
+	align-content: center;
+	padding: 5px;
+	border: 1px solid black;
+}
+.alignleft {
+	text-align: left;
+	border: 1px solid black;
+}
+.alignright {
+	text-align: right;
+	border: 1px solid black;
+}
+.footerWrap {
+    width:100%;
+    bottom: 0px;
+	border: 1px solid black;
+}
+.footer {
+    width:400px;
+    margin:auto;
+	border: 1px solid black;
+}
+.footerContent {
+    float:left;
+    width:100%;
+	border: 1px solid black;
+    padding:2px 0;
+}
+.footer p {float:left; width:100%; text-align:center; }
+.contacttd50 {
+	width: 50%;
+	border: 1px solid black;
+	vertical-align: top;
+}
+#contattd50cent {
+	width: 50%;
+	vertical-align: top;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.centertop2pad {
+	align-content:center;
+	vertical-align: top;
+	border: 1px solid black;
+	padding: 2px;
+}
